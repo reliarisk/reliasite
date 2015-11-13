@@ -1,0 +1,67 @@
+name = Vossen
+description = Responsive Drupal Onepage Parallax Theme
+version = 1.1.0
+core = 7.x
+
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/cubeportfolio.min.css
+stylesheets[all][] = css/ionicons.min.css
+stylesheets[all][] = css/owl.carousel.css
+stylesheets[all][] = css/revolution-slider.css
+stylesheets[all][] = css/simple-line-icons.css
+stylesheets[all][] = css/style.css
+
+;necessary regions
+regions[main_menu] = Main menu
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_title] = Page title
+regions[page_bottom] = Page bottom
+
+;hero regions
+regions[hero_parallax] = Hero Parallax
+regions[hero_fullwidth] = Hero Fullwidth
+regions[hero_landingpage] = Hero Landing Page
+regions[hero_bottom] = Hero Bottom
+
+;standard regions
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[fullwidth_panel] = Fullwidth Panel
+
+;onepage regions
+regions[onepage_features] = Onepage Features
+regions[onepage_about] = Onepage About
+regions[onepage_team] = Onepage Team
+regions[onepage_skills] = Onepage Skills
+regions[onepage_facts] = Onepage Facts
+regions[onepage_quotes] = Onepage Quotes
+regions[onepage_portfolio] = Onepage Portfolio
+regions[onepage_getconnected] = Onepage Get Connected
+regions[onepage_services] = Onepage Services
+regions[onepage_calltoaction1] = Onepage Call to Action 1
+regions[onepage_pricelist] = Onepage Price List
+regions[onepage_clients] = Onepage Clients
+regions[onepage_testimonials] = Onepage Testimonials
+regions[onepage_contact] = Onepage Contact
+regions[onepage_videosection] = Onepage Video Section
+
+;footer regions
+regions[col_footer_1] = Footer column 1
+regions[col_footer_2] = Footer column 2
+regions[col_footer_3] = Footer column 3
+regions[col_footer_4] = Footer column 4
+regions[footer_copyright] = Footer copyright
+regions[footer_social_icons] = Footer social icons
+
+settings[shortcut_module_link] = 0
+settings[skin] = green
+settings[preloader] = 1
+settings[to_top] = 1
+settings[sticky_header] = 1
+settings[show_map] = 1
+settings[map_address] = 44 W 66th St, New York, NY
+settings[map_marker] = sites/all/themes/vossen/images/assets/marker.png
+settings[newsletter_subscription_id] = 1
+settings[launch_list_subscription_id] = 25

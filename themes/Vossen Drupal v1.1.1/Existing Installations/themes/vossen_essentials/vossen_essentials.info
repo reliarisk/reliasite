@@ -1,0 +1,11 @@
+name = Vossen Essentials
+description = Required by the Vossen theme to deliver essential components
+version = 1.0.0
+core = 7.x
+
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[content] = Content
+
+settings[shortcut_module_link] = 0
