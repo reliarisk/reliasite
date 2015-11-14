@@ -32,6 +32,7 @@ DirectoryIndex index.php index.html index.htm
   php_value mbstring.http_input             pass
   php_value mbstring.http_output            pass
   php_flag mbstring.encoding_translation    off
+  php_value memory_limit                    128M
 </IfModule>
 
 # Requires mod_expires to be enabled.
@@ -140,10 +141,4 @@ DirectoryIndex index.php index.html index.htm
       Header append Vary Accept-Encoding
     </FilesMatch>
   </IfModule>
-</IfModule>
-
-# Add headers to all responses.
-<IfModule mod_headers.c>
-  # Disable content sniffing, since it's an attack vector.
-  Header always set X-Content-Type-Options nosniff
 </IfModule>

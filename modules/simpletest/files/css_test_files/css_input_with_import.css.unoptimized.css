@@ -1,7 +1,5 @@
 
 
-@import url("http://example.com/style.css");
-@import url("//example.com/style.css");
 
 ul, select {
   font: 1em/160% Verdana, sans-serif;
