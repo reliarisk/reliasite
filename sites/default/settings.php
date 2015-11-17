@@ -217,9 +217,9 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'reliasite',
-      'username' => 'b904743d9edf3d',
-      'password' => '6bac6aec',
+      'database' => 'reliasite2',
+      'username' => 'b29ad658850426',
+      'password' => 'ced30951',
       'host' => 'us-cdbr-azure-east-a.cloudapp.net',
       'port' => '3306',
       'driver' => 'mysql',
