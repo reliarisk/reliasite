@@ -1634,6 +1634,7 @@ function drupal_move_uploaded_file($filename, $uri) {
   // PHP's move_uploaded_file() does not properly support streams if safe_mode
   // or open_basedir are enabled so if the move failed, try finding a real path
   // and retry the move operation.
+
   if (!$result) {
     if ($realpath = drupal_realpath($uri)) {
       $result = move_uploaded_file($filename, $realpath);
@@ -1642,7 +1643,7 @@ function drupal_move_uploaded_file($filename, $uri) {
       $result = move_uploaded_file($filename, $uri);
     }
   }
-
+  echo ($result);
   return $result;
 }
 
@@ -2309,8 +2310,10 @@ function drupal_realpath($uri) {
   // Otherwise, attempt PHP's realpath. This allows use of drupal_realpath even
   // for unmanaged files outside of the stream wrapper interface.
   if ($wrapper = file_stream_wrapper_get_instance_by_uri($uri)) {
+    echo($wrapper);
     return $wrapper->realpath();
   }
+
   // Check that the URI has a value. There is a bug in PHP 5.2 on *BSD systems
   // that makes realpath not return FALSE as expected when passing an empty
   // variable.
