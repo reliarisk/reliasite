@@ -1643,7 +1643,7 @@ function drupal_move_uploaded_file($filename, $uri) {
       $result = move_uploaded_file($filename, $uri);
     }
   }
-  echo ($result);
+  echo ($result & 'hola');
   return $result;
 }
 
