@@ -1487,7 +1487,7 @@ nav {
     transition: all 0.4s ease;
 }
 .navbar-alt .navbar-brand .logo-big {
-    margin-top: 35px;
+    margin-top: -16px;
 }
 .navbar-alt .navbar-brand .logo-small {
     margin-top: 35px;
@@ -1509,7 +1509,7 @@ nav {
     position:absolute;
     opacity: 1;
     width: 170px;
-    margin-top: 3px; 
+    margin-top: -27px;
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
