@@ -1,4 +1,31 @@
 @charset "utf-8";
+
+/*----------R2M------------*/
+
+/*@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.ttf'); }
+@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.eot'); }
+@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.svg'); }
+@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.woff'); }*/
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.eot'); /* IE9 Compat Modes */
+    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.woff') format('woff'), /* Modern Browsers */
+    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.svg') format('svg'); /* Legacy iOS */
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+/*
+@font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.ttf');}
+@font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.eot');}
+@font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.svg');}
+@font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.woff');}*/
+
+
+
 /*-----------------------------------------------------------------------------
 
 Table of Contents:
@@ -4237,26 +4264,3 @@ pre {
     margin-left: 0;
 }
 
-/*----------R2M------------*/
-
-/*@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.ttf'); }
-@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.eot'); }
-@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.svg'); }
-@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.woff'); }*/
-
-@font-face {
-    font-family: 'MyWebFont';
-    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.eot'); /* IE9 Compat Modes */
-    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.woff') format('woff'), /* Modern Browsers */
-    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.svg') format('svg'); /* Legacy iOS */
-    font-weight: 100;
-    font-style: normal;
-
-}
-
-/*
-@font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.ttf');}
-@font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.eot');}
-@font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.svg');}
-@font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.woff');}*/
