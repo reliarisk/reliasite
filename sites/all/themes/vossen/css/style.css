@@ -4245,12 +4245,11 @@ pre {
 @font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.woff'); }*/
 
 @font-face {
-    font-family: 'Frutiger';
-/*    src: url('../fonts/proximanova-light-webfont.eot');*/
-    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.eot') format('embedded-opentype'),
-    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.woff') format('woff'),
-    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.ttf') format('truetype'),
-    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.svg') format('svg');
+    font-family: 'MyWebFont';
+    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.eot'); /* IE9 Compat Modes */
+    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.woff') format('woff'), /* Modern Browsers */
+    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.svg') format('svg'); /* Legacy iOS */
     font-weight: 100;
     font-style: normal;
 
