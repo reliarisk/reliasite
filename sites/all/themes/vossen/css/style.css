@@ -578,7 +578,7 @@ fieldset legend {
   display: block;
   height: 2em;
   left: -1px; /* LTR */
-  font-family: Montserrat, sans-serif;
+  font-family: 'Frutiger', Montserrat, sans-serif; /*font mod*/
   font-size: 14px;
   text-transform: uppercase;
   line-height: 2;
@@ -716,7 +716,7 @@ input.form-button-disabled:active,
   display: none;
 }
 #search-form input#edit-keys {
-  font-family: 'Montserrat',sans-serif;
+  font-family: 'Frutiger', 'Montserrat',sans-serif;
   font-weight: 400;
   padding: 10.9px;
   color: #1c1c1c;
@@ -973,7 +973,7 @@ input.form-button-disabled:active,
 	letter-spacing: 2px; 
 }
 .home-heading {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif; /*font mod*/
     font-weight: 700;
     letter-spacing: 0px;
     text-transform: uppercase;
@@ -1000,7 +1000,7 @@ input.form-button-disabled:active,
     }
 }
 .home-subheading {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif; /*font mod*/
     font-size: 14px;
     letter-spacing: .5px; 
     font-weight: 400;
@@ -1209,7 +1209,7 @@ nav {
     }
 }
 .navbar-default .navbar-right {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
 	font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -1688,7 +1688,7 @@ nav {
     }
 }
 .feature-info h4 {
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif; /*font mod*/
     font-weight: 700;
     text-transform: uppercase;
     color: #1c1c1c;
@@ -1979,7 +1979,7 @@ nav {
     margin-top: 3px;
 }
 .counter {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     font-size: 65px;
     font-weight: 700;
     letter-spacing: 0px;
@@ -2002,7 +2002,7 @@ nav {
     position: relative;
     display: block; 
     line-height: 1.5;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger','Montserrat', sans-serif; /*font mod*/
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -2234,7 +2234,7 @@ blockquote strong {
 }
 .cbp-popup-singlePage-counter {
     top: -24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     font-weight: 400;
     color: #1c1c1c;
 }
@@ -2489,7 +2489,7 @@ blockquote strong {
 .price-table .price .pricing {
     position: relative;
     right: 5px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif; /*font mod*/
     font-weight: 700;
     font-size: 55px;
     line-height: 1; 
@@ -2569,7 +2569,7 @@ blockquote strong {
     text-align: center;
     cursor: pointer;
     color: #d8d8d8;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     font-weight: 400!important;
     font-size: 14px; 
     overflow: hidden;
@@ -2670,7 +2670,7 @@ blockquote strong {
 }
 .testimonial span { 
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Frutiger', 'Open Sans', sans-serif; /*font mod*/
     letter-spacing: 0px;
     font-weight: 300;
     line-height: 32px;
@@ -2679,7 +2679,7 @@ blockquote strong {
     opacity: .7;
 }
 #testimonials .testimonial strong {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     font-weight: 700;
 }
 #testimonials .icon-left {
@@ -2743,7 +2743,7 @@ blockquote strong {
 
 /* Form style */
 #contact input, select, textarea{ 
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif; /*font mod*/
     font-weight: 400;
 	width: 100%; 
 	max-width: ;
@@ -2782,7 +2782,7 @@ textarea {
 	-webkit-border-radius: 2px; 
 }
 ::-webkit-input-placeholder { 
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif;/*font mod*/
     font-weight: 700;
     text-transform: uppercase;
     color:#555;
@@ -2795,7 +2795,7 @@ textarea {
 
 #contact input.submit { 
     width: auto!important;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     font-size: 14px;
     font-weight: 700;
     -webkit-box-sizing: border-box;
@@ -3119,7 +3119,7 @@ footer a:hover {
 .subscription input::-webkit-input-placeholder {
 	color: #555;
 	text-transform: capitalize;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Frutiger', 'Open Sans',sans-serif; /*font mod*/
 }
 .footer-subscribe-input,
 footer .form-text {
@@ -3161,7 +3161,7 @@ footer .btn {
 	}
 }
 .subscribe-top ::-webkit-input-placeholder { 
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif; /*font mod*/
     font-weight: 700;
     text-transform: uppercase;
     color:#555;
@@ -3294,7 +3294,7 @@ footer .btn {
 .btn-info, 
 .btn-warning, 
 .btn-danger {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -3369,7 +3369,7 @@ outline-offset: 0;
 }
 .btn-primary-full {
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     text-transform: uppercase;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -3409,7 +3409,7 @@ outline-offset: 0;
 .btn-transparent-dark {
     padding: 6.5px 20px!important;
     color: #252525;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger','Montserrat', sans-serif; /*font mod*/
     text-transform: uppercase;
     font-weight: 700!important;
     background-color: transparent;
@@ -3668,7 +3668,7 @@ ul.caret-list li:before {
 }
 /*--tabs--*/
 .nav-tabs>li>a {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -3690,7 +3690,7 @@ ul.caret-list li:before {
     line-height: 24px;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -4034,7 +4034,7 @@ ul.caret-list li:before {
 .blog-widget-container .form-control,
 .sidebar .block .form-control,
 .sidebar .block .form-text {
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Frutiger', 'Open Sans',sans-serif; /*font mod*/
     font-size: 14px;
     font-weight: 400;
     text-transform: none;
@@ -4168,7 +4168,7 @@ pre {
   margin-bottom: 70px;
 }
 .comment-form .form-text, select, textarea{ 
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif; /*font mod*/
     font-weight: 400;
 	width: 100%; 
 	max-width: ;
@@ -4244,7 +4244,7 @@ pre {
 @font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.svg'); }
 @font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.woff'); }
 
-@font-face { font-family: Delicious; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.ttf');}
-@font-face { font-family: Delicious; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.eot');}
-@font-face { font-family: Delicious; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.svg');}
-@font-face { font-family: Delicious; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.woff');}
+@font-face { font-family: "Frutiger-Bold"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.ttf');}
+@font-face { font-family: "Frutiger-Bold"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.eot');}
+@font-face { font-family: "Frutiger-Bold"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.svg');}
+@font-face { font-family: "Frutiger-Bold"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.woff');}
