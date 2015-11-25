@@ -4239,19 +4239,23 @@ pre {
 
 /*----------R2M------------*/
 
-/*@font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.ttf'); }
-@font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.eot'); }
-@font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.svg'); }
+/*@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.ttf'); }
+@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.eot'); }
+@font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.svg'); }
 @font-face {font-family: "Frutiger"; src: url('..\sites\all\themes\vossen\fonts\Frutiger-Roman.woff'); }*/
 
 @font-face {
-    font-family: Frutiger;
-    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.eot');
-    src: local('Frutiger'),
-    url('../sites/all/themes/vossen/fonts/Frutiger-Roman') format('opentype'),
+    font-family: 'Frutiger';
+/*    src: url('../fonts/proximanova-light-webfont.eot');*/
+    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.eot') format('embedded-opentype'),
+    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.woff') format('woff'),
+    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.ttf') format('truetype'),
     url('../sites/all/themes/vossen/fonts/Frutiger-Roman.svg') format('svg');
-  /*  url(data:font/otf;base64,T1RUTMillIONsOfLETteRsInaROW12fAtGrrYUUUUBx);*/
+    font-weight: 100;
+    font-style: normal;
+
 }
+
 /*
 @font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.ttf');}
 @font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.eot');}
