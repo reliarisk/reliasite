@@ -29,6 +29,7 @@ Table of Contents:
 23) Footer 1
 24) Subscribe Form - Twitter Feed
 25) Shortcodes
+26) R2M
 
 ------------------------------------------------------------------------------*/
 
@@ -40,7 +41,7 @@ body {
 }
 html { -webkit-font-smoothing: antialiased; }
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Frutiger',"Open Sans", sans-serif; /*font mod*/
 	font-weight: 400;
 	color: #1c1c1c;
 }
@@ -87,18 +88,18 @@ a:focus, a:active, button::-moz-focus-inner, input[type="reset"]::-moz-focus-inn
     float: left;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
 	font-weight: 700;
 	line-height: 1;
     color: #1c1c1c;
 }
 h1 small, h2 small, h3 small {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Frutiger', 'Open Sans', sans-serif; /*font mod*/
 	font-weight: 200;
 	color: #1c1c1c;
 }
 h4 small, h5 small, h6 small {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Frutiger', 'Open Sans', sans-serif; /*font mod*/
 	font-weight: 300;
 	color: #1c1c1c;
 }
@@ -143,7 +144,7 @@ p {
     letter-spacing: 2px;
     margin-top: 0;
     margin-bottom: 22px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger', 'Montserrat',sans-serif; /*font mod*/
     font-size: 30px;
 }
 .project-title {
@@ -152,7 +153,7 @@ p {
     letter-spacing: 0px;
     margin-top: 60px;
     margin-bottom: 10px;
-    font-family: 'Montserrat',sans-serif;
+    font-family: 'Frutiger','Montserrat',sans-serif; /*font mod*/
     font-size: 50px;
 }
 @media (max-width:600px) {
@@ -2017,7 +2018,7 @@ nav {
     padding-left: 0px; 
 }
 blockquote strong {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
     font-weight: 700;
 }
 #quote .icon-left {
@@ -4235,3 +4236,15 @@ pre {
     margin-top: 20px;
     margin-left: 0;
 }
+
+/*----------R2M------------*/
+
+@font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.ttf'); }
+@font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.eot'); }
+@font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.svg'); }
+@font-face {font-family: "Frutiger"; src: url('\sites\all\themes\vossen\fonts\Frutiger-Roman.woff'); }
+
+@font-face { font-family: Delicious; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.ttf');}
+@font-face { font-family: Delicious; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.eot');}
+@font-face { font-family: Delicious; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.svg');}
+@font-face { font-family: Delicious; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.woff');}
