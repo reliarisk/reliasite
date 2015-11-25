@@ -908,10 +908,12 @@ input.form-button-disabled:active,
     right: 0;
     z-index: 1;   
 }
+
+/*mod remove square alpha image*/
 .tp-banner li:after {
     content: "";
     position: absolute;
-    background: url(../images/assets/gridtile.png) repeat;
+    background: none; /*background: url(../images/assets/gridtile.png) repeat;*/
     top: 0;
     left: 0;
     bottom: 0;
