@@ -241,7 +241,7 @@ $preloader = theme_get_setting('preloader');
                 <div class="footer-widgets">
                     <div class="container"> 
                             
-                            <div class="col-md-3 col-sm-6 col-twitter">
+                            <div class="col-md-4 col-sm-6 col-twitter">
 				<?php if ($page['col_footer_1']): ?>
                                              <div class="col-footer-1">
 						 <?php print render($page['col_footer_1']); ?>
@@ -250,7 +250,7 @@ $preloader = theme_get_setting('preloader');
 
                             </div>
                             
-                            <div class="col-md-3 col-sm-6 col-footer">
+                            <div class="col-md-4 col-sm-6 col-footer">
                                 <div class="subscription">
 					<?php if ($page['col_footer_2']): ?>
                                              <div class="col-footer-2">
@@ -261,20 +261,25 @@ $preloader = theme_get_setting('preloader');
                                 </div>
                             </div> 
                             
-                            <div class="col-md-3 col-sm-6 col-footer">
+                            <div class="col-md-4 col-sm-6 col-footer">
  				<?php if ($page['col_footer_3']): ?>
                                              <div class="col-footer-3">
 						 <?php print render($page['col_footer_3']); ?>
 						</div> <!-- /.col-footer-3 -->
 					<?php endif; ?>
                             </div>
-                            
-                            <div class="col-md-3 col-sm-6 col-footer">
 
- 				<?php if ($page['col_footer_4']): ?>
-                                             <div class="col-footer-4">
-						 <?php print render($page['col_footer_4']); ?>
-						</div> <!-- /.col-footer-4 -->
+
+
+						<!--custom mod removed 4th footer column-->
+
+
+                            <!--<div class="col-md-3 col-sm-6 col-footer">-->
+
+ 				<?php //if ($page['col_footer_4']): ?>
+                                             <!--<div class="col-footer-4">-->
+						 <?php //print render($page['col_footer_4']);?>
+						 <!--</div>  /.col-footer-4 -->
 					<?php endif; ?>
 
 
