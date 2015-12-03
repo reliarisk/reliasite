@@ -273,7 +273,7 @@ $preloader = theme_get_setting('preloader');
 
 					<?php if ($page['col_footer_4']): ?>
 						<div class="col-footer-4">
-							<?php print render($page['col_footer_4']); ?>
+							<?php //print render($page['col_footer_4']);  commented for custom mod?>
 						</div> <!-- /.col-footer-4 -->
 					<?php endif; ?>
 
