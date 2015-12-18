@@ -136,4 +136,12 @@ footer #social-icons li a:hover,
 .navbar-alt .navbar-nav > li > a, .navbar-alt .navbar-nav > li > span{
 
     color: #000000;
+
+}
+
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+
+    color: #FFFFFF;
+
 }
