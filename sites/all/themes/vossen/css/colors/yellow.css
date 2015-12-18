@@ -1,8 +1,8 @@
 ::-moz-selection {
-    background: #ffcc00;
+    background: #f1cf00;
 }
 ::selection {
-	background: #ffcc00;
+	background: #f1cf00;
 }
 
 
@@ -129,4 +129,13 @@ footer #social-icons li a:hover,
     border-color: #f1cf00;
     transition: all 0.4s;
 }
- 
+
+
+
+/******** CUSTOM R2M ************************/
+
+
+.navbar-alt .navbar-nav > li > a, .navbar-alt .navbar-nav > li > span{
+
+    color: #000000;
+}
