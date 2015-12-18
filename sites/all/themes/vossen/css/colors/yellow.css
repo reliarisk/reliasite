@@ -38,7 +38,7 @@
 .cbp-l-loadMore-button .cbp-l-loadMore-button-link:hover,
 .pager li>a:hover, .pager li>a:focus 
 {
-	background: #ffcc00;
+	background: #f1cf00;
 }
 
 
@@ -52,12 +52,10 @@ figure figcaption a:hover,
 .navbar-default .navbar-nav > .hovernav:hover > a:hover,
 .navbar-default .navbar-nav > .hovernav:hover > a:focus
 .nav > li > a:hover,
-
 .nav > li > span:hover,
 .nav > li > span:focus,
-.navbar-default .navbar-nav > li > a:hover,
-
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+/*.navbar-default .navbar-nav > li > a:hover,*/
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.active>a, 
