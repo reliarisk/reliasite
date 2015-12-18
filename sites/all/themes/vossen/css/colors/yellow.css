@@ -71,7 +71,7 @@ figure figcaption a:hover,
 .btn-link,
 .post-title a:hover,
 .post-title a:focus,
-#main-nav .current,
+/*#main-nav .current,*/
 .star-rating span,
 .twitter-logo .fa,
 .footer-logo a:hover,
@@ -145,3 +145,9 @@ footer #social-icons li a:hover,
     color: #FFFFFF;
 
 }
+
+#main-nav .current{
+    color: #FFFFFF;
+}
+
+
