@@ -94,13 +94,13 @@ footer #social-icons li a:hover,
 .section-links a:hover,
 .blog-post-title a:hover
  {
-	color: #ffcc00;
+	color: #f1cf00;
 }
 
 .cbp-l-filters-alignRight .cbp-filter-counter:before,
 .cbp-l-filters-alignCenter .cbp-filter-counter:before,
 .cbp-l-filters-button .cbp-filter-counter:before {
-	border-top: 4px solid #ffcc00;
+	border-top: 4px solid #f1cf00;
 }
 .btn-primary-full {
     box-shadow: 0 -3px rgba(0, 0, 0, 0.4) inset;
@@ -111,10 +111,10 @@ footer #social-icons li a:hover,
     background-color: rgba(241, 221, 0, 0.9);
 }
 .label-primary:after {
-    border-bottom-color: #ffcc00;
+    border-bottom-color: #f1cf00;
 }
 .mega-menu .dropdown-menu {
-    border-bottom: 2px solid #ffcc00;
+    border-bottom: 2px solid #f1cf00;
     border-top: none!important;
 }
 
@@ -122,11 +122,11 @@ footer #social-icons li a:hover,
 .btn-effect:focus,
 .btn-effect:active,
 .btn-effect:after {
-    background: #ffcc00;
+    background: #f1cf00;
 }
 .btn-effect:hover {
     background: none; 
-    border-color: #ffcc00;
+    border-color: #f1cf00;
     transition: all 0.4s;
 }
  
