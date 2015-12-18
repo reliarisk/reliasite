@@ -70,7 +70,8 @@ html { -webkit-font-smoothing: antialiased; }
 body {
 	font-family: 'Frutiger',"Open Sans", sans-serif; /*font mod*/
 	font-weight: 400;
-	color: #1c1c1c;
+    color: #ffffff;
+	/*color: #1c1c1c;*/
 }
 a {
 	background: transparent;
@@ -118,7 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Frutiger', 'Montserrat', sans-serif; /*font mod*/
 	font-weight: 700;
 	line-height: 1;
-    color: #1c1c1c;
+    color: #f1cf00;
+    /*color: #1c1c1c;*/
 }
 h1 small, h2 small, h3 small {
 	font-family: 'Frutiger', 'Open Sans', sans-serif; /*font mod*/
