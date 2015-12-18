@@ -154,4 +154,7 @@ footer #social-icons li a:hover,
     color: #FFFFFF;
 }
 
+.active{
+    color: #000000;
+}
 
