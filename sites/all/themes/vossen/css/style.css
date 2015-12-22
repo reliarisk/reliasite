@@ -821,6 +821,9 @@ input.form-button-disabled:active,
 .black {
     color: #000000;
 }
+.yellow {
+    color: #f1cf00;
+}
 
 .size-8x { font-size:8em }
 .size-7x { font-size:7em }
