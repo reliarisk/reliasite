@@ -18,6 +18,20 @@
 
 }
 
+
+.language-switcher-locale-url li {
+    display: inline;
+    color: #000;
+}
+
+.language-switcher-locale-url .active{
+    color: #ffffff;
+}
+
+.navbar-alt .navbar-right {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 /*
 @font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.ttf');}
 @font-face { font-family: "Frutiger"; font-weight: bold; src: url('\sites\all\themes\vossen\fonts\Frutiger-Bold.eot');}
