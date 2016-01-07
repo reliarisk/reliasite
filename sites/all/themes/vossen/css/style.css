@@ -24,11 +24,12 @@
 }
 .language-switcher-locale-url li {
     display: inline;
-    color: #000; !important;
+    color: #000 !important;
 }
 
 .language-switcher-locale-url .active{
-    color: #ffffff; !important;
+    color: #ffffff !important;
+    font-weight: bold;
 }
 
 .navbar-alt .navbar-right {
