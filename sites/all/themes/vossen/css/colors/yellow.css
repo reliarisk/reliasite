@@ -159,6 +159,6 @@ footer #social-icons li a:hover,
 }
 
 .language-link{
-    color: #000;
+    color: #000 !important;
 }
 
