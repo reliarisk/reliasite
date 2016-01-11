@@ -28,7 +28,7 @@
 }
 
 .language-switcher-locale-url .active{
-    color: #ffffff !important;
+    /*color: #ffffff !important;*/
     font-weight: bold;
 }
 
