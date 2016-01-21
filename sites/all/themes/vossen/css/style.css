@@ -9,10 +9,10 @@
 
 @font-face {
     font-family: 'Frutiger';
-    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.eot'); /* IE9 Compat Modes */
-    src: url('../sites/all/themes/vossen/fonts/Frutiger-Roman.woff') format('woff'), /* Modern Browsers */
-    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
-    url('../sites/all/themes/vossen/fonts/Frutiger-Roman.svg') format('svg'); /* Legacy iOS */
+    src: url('../fonts/Frutiger-Roman.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Frutiger-Roman.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Frutiger-Roman.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Frutiger-Roman.svg') format('svg'); /* Legacy iOS */
     font-weight: 100;
     font-style: normal;
 
