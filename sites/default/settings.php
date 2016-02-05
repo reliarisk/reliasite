@@ -212,22 +212,56 @@
  *   );
  * @endcode
  */
+
 $databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'reliasite',
-      'username' => 'ODBC',
-      'password' => '',
-      'host' => '191.238.172.202',
-      'port' => '3306',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
+    'default' =>
+        array (
+            'default' =>
+                array (
+                    'database' => 'reliasite',
+                    'username' => 'ODBC',
+                    'password' => '',
+                    'host' => '40.84.152.43',
+                    'port' => '3306',
+                    'driver' => 'mysql',
+                    'prefix' => '',
+                ),
+        ),
 );
 
+/*$databases = array (
+    'default' =>
+        array (
+            'default' =>
+                array (
+                    'database' => 'reliasite',
+                    'username' => 'reliauser',
+                    'password' => 'reliariskR2M!..**',
+                    'host' => '208.91.199.11',
+                    'port' => '3306',
+                    'driver' => 'mysql',
+                    'prefix' => '',
+                ),
+        ),
+);
+
+
+
+$databases = array (
+    'default' =>
+        array (
+            'default' =>
+                array (
+                    'database' => 'drupal_20',
+                    'username' => 'drupal_bc',
+                    'password' => 'J2Rfv#n3F1',
+                    'host' => '208.91.199.11',
+                    'port' => '3306',
+                    'driver' => 'mysql',
+                    'prefix' => '',
+                ),
+        ),
+);*/
 /**
  * Access control for update.php script.
  *
