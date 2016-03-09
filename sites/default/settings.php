@@ -218,9 +218,9 @@ $databases = array (
     'default' => 
     array (
       'database' => 'reliasite',
-      'username' => 'reliauser',
-      'password' => 'reliariskR2M!..**',
-      'host' => '100.74.52.13',
+      'username' => 'ODBC',
+      'password' => '',
+      'host' => '40.84.153.244',
       'port' => '3306',
       'driver' => 'mysql',
       'prefix' => '',
